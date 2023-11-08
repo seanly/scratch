@@ -3,7 +3,7 @@
 ## create scratch image
 
 ```
-tar cv --files-from /dev/null | docker import - scratch
+tar cv --files-from /dev/null | docker import - seanly/scratch
 ```
 
 ## output to host
